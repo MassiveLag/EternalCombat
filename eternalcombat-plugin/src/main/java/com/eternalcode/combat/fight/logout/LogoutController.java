@@ -10,10 +10,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerKickEvent;
 import org.bukkit.event.player.PlayerQuitEvent;
 
-import java.util.Collections;
-import java.util.List;
-import java.util.Set;
-import java.util.UUID;
+import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class LogoutController implements Listener {
@@ -23,7 +20,7 @@ public class LogoutController implements Listener {
     private final NoticeService noticeService;
     private final PluginConfig config;
 
-    private final Set<UUID> shouldNotPunishOnQuit = Collections.newSetFromMap(new ConcurrentHashMap<>());
+    private final Set<UUID> shouldNotPunishOnQuit = new HashSet<>();
 
     public LogoutController(FightManager fightManager, LogoutService logoutService, NoticeService noticeService, PluginConfig config) {
         this.fightManager = fightManager;

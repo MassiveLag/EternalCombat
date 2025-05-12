@@ -88,8 +88,8 @@ public class CombatSettings extends OkaeriConfig {
         "# If this list is empty, players are ALWAYS punished when kicked during combat.",
         "# If one of the listed phrases is found in the kick reason (case-insensitive),",
         "# the player will NOT be punished.",
-        "# Example: 'Timed out', 'Kicked for inactivity', etc.",
+        "# Example: 'Server is restarting', 'Kicked for inactivity', etc.",
         "# To always punish players on kick, set: whitelistedKickReasons: []"
     })
-    public List<String> whitelistedKickReasons = List.of("Kicked for inactivity", "Timed out", "Server is restarting");
+    public List<String> whitelistedKickReasons = List.of("Kicked for inactivity", "Server is restarting");
 }

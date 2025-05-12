@@ -103,11 +103,6 @@ public class FightTagController implements Listener {
             return;
         }
 
-        boolean hasBypass = player.hasPermission("eternalcombat.bypass");
-        if (hasBypass) {
-            return;
-        }
-
         Duration combatTime = this.config.settings.combatTimerDuration;
         UUID uuid = player.getUniqueId();
 
@@ -146,15 +141,9 @@ public class FightTagController implements Listener {
     }
 
     private boolean cannotBeTagged(Player player) {
-        boolean hasBypass = player.hasPermission("eternalcombat.bypass");
-        if (hasBypass) {
-            return true;
-        }
-        if (player.getGameMode().equals(GameMode.CREATIVE) && this.config.admin.excludeCreativePlayersFromCombat) {
-            return true;
-        }
-
-        return player.isOp() && this.config.admin.excludeAdminsFromCombat;
+        return player.hasPermission("eternalcombat.bypass")
+            || (player.getGameMode() == GameMode.CREATIVE && config.admin.excludeCreativePlayersFromCombat)
+            || (player.isOp() && config.admin.excludeAdminsFromCombat);
     }
 
 }
