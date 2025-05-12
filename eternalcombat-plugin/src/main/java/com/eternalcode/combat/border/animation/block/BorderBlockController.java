@@ -15,6 +15,13 @@ import com.github.retrooper.packetevents.protocol.world.states.type.StateTypes;
 import com.github.retrooper.packetevents.util.Vector3i;
 import com.github.retrooper.packetevents.wrapper.play.server.WrapperPlayServerMultiBlockChange;
 import com.github.retrooper.packetevents.wrapper.play.server.WrapperPlayServerMultiBlockChange.EncodedBlock;
+import org.bukkit.ChunkSnapshot;
+import org.bukkit.Material;
+import org.bukkit.Server;
+import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+
 import java.util.Collection;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -23,12 +30,6 @@ import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-import org.bukkit.ChunkSnapshot;
-import org.bukkit.Material;
-import org.bukkit.Server;
-import org.bukkit.entity.Player;
-import org.bukkit.event.EventHandler;
-import org.bukkit.event.Listener;
 
 public class BorderBlockController implements Listener {
 

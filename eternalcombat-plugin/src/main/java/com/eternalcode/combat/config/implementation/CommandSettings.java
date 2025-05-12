@@ -3,6 +3,7 @@ package com.eternalcode.combat.config.implementation;
 import com.eternalcode.combat.WhitelistBlacklistMode;
 import eu.okaeri.configs.OkaeriConfig;
 import eu.okaeri.configs.annotation.Comment;
+
 import java.util.List;
 
 public class CommandSettings extends OkaeriConfig {

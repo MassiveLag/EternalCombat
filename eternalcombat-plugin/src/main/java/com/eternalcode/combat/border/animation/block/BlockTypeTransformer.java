@@ -3,6 +3,7 @@ package com.eternalcode.combat.border.animation.block;
 import eu.okaeri.configs.schema.GenericsPair;
 import eu.okaeri.configs.serdes.BidirectionalTransformer;
 import eu.okaeri.configs.serdes.SerdesContext;
+
 import java.util.Locale;
 
 public class BlockTypeTransformer extends BidirectionalTransformer<String, BlockType> {

@@ -3,15 +3,12 @@ package com.eternalcode.combat.border;
 import com.eternalcode.combat.region.Region;
 import com.eternalcode.combat.region.RegionProvider;
 import com.eternalcode.commons.scheduler.Scheduler;
-import java.time.Duration;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 import org.bukkit.Location;
 import org.bukkit.Server;
 import org.bukkit.World;
+
+import java.time.Duration;
+import java.util.*;
 
 class BorderTriggerIndex {
 

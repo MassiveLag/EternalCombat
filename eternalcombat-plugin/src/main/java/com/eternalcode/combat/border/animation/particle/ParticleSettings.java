@@ -13,7 +13,8 @@ import com.github.retrooper.packetevents.util.Vector3f;
 import com.github.retrooper.packetevents.wrapper.play.server.WrapperPlayServerParticle;
 import eu.okaeri.configs.OkaeriConfig;
 import eu.okaeri.configs.annotation.Comment;
-import java.awt.Color;
+
+import java.awt.*;
 
 @SuppressWarnings("unchecked")
 public class ParticleSettings extends OkaeriConfig {

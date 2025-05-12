@@ -10,8 +10,9 @@ import dev.rollczi.litecommands.annotations.command.Command;
 import dev.rollczi.litecommands.annotations.context.Context;
 import dev.rollczi.litecommands.annotations.execute.Execute;
 import dev.rollczi.litecommands.annotations.permission.Permission;
-import java.time.Duration;
 import org.bukkit.command.CommandSender;
+
+import java.time.Duration;
 
 @Command(name = "combatlog", aliases = "combat")
 @Permission("eternalcombat.reload")

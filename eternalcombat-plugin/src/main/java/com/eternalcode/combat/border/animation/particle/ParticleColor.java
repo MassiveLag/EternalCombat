@@ -2,7 +2,8 @@ package com.eternalcode.combat.border.animation.particle;
 
 import com.eternalcode.combat.border.BorderPoint;
 import com.eternalcode.combat.border.animation.BorderColorUtil;
-import java.awt.Color;
+
+import java.awt.*;
 
 public class ParticleColor {
 

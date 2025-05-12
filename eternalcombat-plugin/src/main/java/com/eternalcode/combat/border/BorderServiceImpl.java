@@ -6,15 +6,12 @@ import com.eternalcode.combat.event.EventCaller;
 import com.eternalcode.combat.region.RegionProvider;
 import com.eternalcode.commons.scheduler.Scheduler;
 import dev.rollczi.litecommands.shared.Lazy;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
-import java.util.Set;
-import java.util.UUID;
 import org.bukkit.Location;
 import org.bukkit.Server;
 import org.bukkit.World;
 import org.bukkit.entity.Player;
+
+import java.util.*;
 
 public class BorderServiceImpl implements BorderService {
 

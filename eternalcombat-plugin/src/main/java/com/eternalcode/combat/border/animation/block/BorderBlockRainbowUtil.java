@@ -5,10 +5,11 @@ import com.eternalcode.combat.border.animation.BorderColorUtil;
 import com.github.retrooper.packetevents.protocol.world.states.type.StateType;
 import com.github.retrooper.packetevents.protocol.world.states.type.StateTypes;
 import com.google.common.collect.ImmutableMap;
-import java.awt.Color;
+import org.bukkit.DyeColor;
+
+import java.awt.*;
 import java.util.EnumMap;
 import java.util.Map;
-import org.bukkit.DyeColor;
 
 final class BorderBlockRainbowUtil {
 

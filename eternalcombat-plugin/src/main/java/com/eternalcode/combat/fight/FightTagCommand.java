@@ -2,11 +2,7 @@ package com.eternalcode.combat.fight;
 
 import com.eternalcode.combat.config.implementation.MessagesSettings;
 import com.eternalcode.combat.config.implementation.PluginConfig;
-import com.eternalcode.combat.fight.event.CancelTagReason;
-import com.eternalcode.combat.fight.event.CauseOfTag;
-import com.eternalcode.combat.fight.event.CauseOfUnTag;
-import com.eternalcode.combat.fight.event.FightTagEvent;
-import com.eternalcode.combat.fight.event.FightUntagEvent;
+import com.eternalcode.combat.fight.event.*;
 import com.eternalcode.combat.notification.NoticeService;
 import dev.rollczi.litecommands.annotations.argument.Arg;
 import dev.rollczi.litecommands.annotations.command.Command;
@@ -15,13 +11,12 @@ import dev.rollczi.litecommands.annotations.execute.Execute;
 import dev.rollczi.litecommands.annotations.permission.Permission;
 import dev.rollczi.litecommands.annotations.priority.Priority;
 import dev.rollczi.litecommands.annotations.priority.PriorityValue;
-import java.time.Duration;
-import java.util.Set;
-import java.util.UUID;
-import java.util.stream.Collectors;
-
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
+
+import java.time.Duration;
+import java.util.UUID;
+import java.util.stream.Collectors;
 
 @Command(name = "combatlog", aliases = "combat")
 public class FightTagCommand {

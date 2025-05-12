@@ -2,6 +2,7 @@ package com.eternalcode.combat.fight.knockback;
 
 import eu.okaeri.configs.OkaeriConfig;
 import eu.okaeri.configs.annotation.Comment;
+
 import java.time.Duration;
 
 public class KnockbackSettings extends OkaeriConfig {

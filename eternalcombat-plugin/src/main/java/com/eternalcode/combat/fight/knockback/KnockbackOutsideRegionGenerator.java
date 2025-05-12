@@ -1,14 +1,9 @@
 package com.eternalcode.combat.fight.knockback;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.NavigableMap;
-import java.util.Set;
-import java.util.TreeMap;
 import org.bukkit.Location;
 import org.bukkit.World;
+
+import java.util.*;
 
 class KnockbackOutsideRegionGenerator {
 

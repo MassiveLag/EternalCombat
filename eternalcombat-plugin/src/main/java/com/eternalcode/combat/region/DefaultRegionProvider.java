@@ -1,11 +1,11 @@
 package com.eternalcode.combat.region;
 
+import org.bukkit.Location;
+import org.bukkit.World;
+
 import java.util.Collection;
 import java.util.List;
 import java.util.Optional;
-import org.bukkit.Bukkit;
-import org.bukkit.Location;
-import org.bukkit.World;
 
 public class DefaultRegionProvider implements RegionProvider {
 

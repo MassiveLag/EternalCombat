@@ -1,6 +1,6 @@
 package com.eternalcode.combat.border.animation;
 
-import java.awt.Color;
+import java.awt.*;
 
 public final class BorderColorUtil {
 

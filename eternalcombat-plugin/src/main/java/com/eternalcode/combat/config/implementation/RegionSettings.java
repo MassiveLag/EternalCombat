@@ -2,6 +2,7 @@ package com.eternalcode.combat.config.implementation;
 
 import eu.okaeri.configs.OkaeriConfig;
 import eu.okaeri.configs.annotation.Comment;
+
 import java.util.Collections;
 import java.util.List;
 

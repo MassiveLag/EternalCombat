@@ -2,8 +2,9 @@ package com.eternalcode.combat.config.implementation;
 
 import eu.okaeri.configs.OkaeriConfig;
 import eu.okaeri.configs.annotation.Comment;
-import java.util.List;
 import org.bukkit.Material;
+
+import java.util.List;
 
 public class BlockPlacementSettings extends OkaeriConfig {
     @Comment({

@@ -4,6 +4,7 @@ import com.eternalcode.combat.border.animation.block.BlockSettings;
 import com.eternalcode.combat.border.animation.particle.ParticleSettings;
 import eu.okaeri.configs.OkaeriConfig;
 import eu.okaeri.configs.annotation.Comment;
+
 import java.time.Duration;
 
 public class BorderSettings extends OkaeriConfig {

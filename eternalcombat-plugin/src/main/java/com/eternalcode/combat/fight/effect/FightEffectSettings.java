@@ -2,7 +2,6 @@ package com.eternalcode.combat.fight.effect;
 
 import eu.okaeri.configs.OkaeriConfig;
 import eu.okaeri.configs.annotation.Comment;
-
 import org.bukkit.potion.PotionEffectType;
 
 import java.util.Map;

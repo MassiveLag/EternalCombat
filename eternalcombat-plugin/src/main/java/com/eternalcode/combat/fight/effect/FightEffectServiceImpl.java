@@ -4,11 +4,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.UUID;
-import java.util.List;
-import java.util.ArrayList;
+import java.util.*;
 
 public class FightEffectServiceImpl implements FightEffectService {
 

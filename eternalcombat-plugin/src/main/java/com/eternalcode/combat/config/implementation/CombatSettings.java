@@ -3,11 +3,11 @@ package com.eternalcode.combat.config.implementation;
 import com.eternalcode.combat.WhitelistBlacklistMode;
 import eu.okaeri.configs.OkaeriConfig;
 import eu.okaeri.configs.annotation.Comment;
-import java.util.List;
 import org.bukkit.entity.EntityType;
 import org.bukkit.event.EventPriority;
-import org.bukkit.event.entity.EntityDamageEvent;
 import org.bukkit.event.entity.EntityDamageEvent.DamageCause;
+
+import java.util.List;
 
 public class CombatSettings extends OkaeriConfig {
     @Comment({

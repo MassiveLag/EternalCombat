@@ -1,10 +1,11 @@
 package com.eternalcode.combat.fight;
 
+import org.jetbrains.annotations.ApiStatus;
+import org.jetbrains.annotations.Nullable;
+
 import java.time.Duration;
 import java.time.Instant;
 import java.util.UUID;
-import org.jetbrains.annotations.ApiStatus;
-import org.jetbrains.annotations.Nullable;
 
 public class FightTagImpl implements FightTag {
 

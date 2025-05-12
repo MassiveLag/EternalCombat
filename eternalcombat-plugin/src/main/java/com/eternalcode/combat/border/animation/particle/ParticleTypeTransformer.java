@@ -7,6 +7,7 @@ import eu.okaeri.configs.schema.GenericsDeclaration;
 import eu.okaeri.configs.schema.GenericsPair;
 import eu.okaeri.configs.serdes.BidirectionalTransformer;
 import eu.okaeri.configs.serdes.SerdesContext;
+
 import java.util.Locale;
 
 public class ParticleTypeTransformer extends BidirectionalTransformer<String, ParticleType<?>> {

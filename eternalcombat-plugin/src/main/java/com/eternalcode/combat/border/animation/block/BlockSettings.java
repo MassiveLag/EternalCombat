@@ -2,6 +2,7 @@ package com.eternalcode.combat.border.animation.block;
 
 import eu.okaeri.configs.OkaeriConfig;
 import eu.okaeri.configs.annotation.Comment;
+
 import java.time.Duration;
 
 public class BlockSettings extends OkaeriConfig {

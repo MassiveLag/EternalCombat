@@ -5,8 +5,6 @@ import com.eternalcode.combat.fight.event.FightTagEvent;
 import com.eternalcode.combat.notification.NoticeService;
 import com.eternalcode.combat.region.Region;
 import com.eternalcode.combat.region.RegionProvider;
-import java.time.Duration;
-import java.util.Optional;
 import org.bukkit.Location;
 import org.bukkit.Server;
 import org.bukkit.entity.Player;
@@ -15,6 +13,9 @@ import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerMoveEvent;
 import org.bukkit.event.player.PlayerTeleportEvent;
+
+import java.time.Duration;
+import java.util.Optional;
 
 public class KnockbackRegionController implements Listener {
 

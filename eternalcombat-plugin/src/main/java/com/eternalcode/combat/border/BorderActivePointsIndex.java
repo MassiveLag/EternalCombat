@@ -1,10 +1,6 @@
 package com.eternalcode.combat.border;
 
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
-import java.util.UUID;
+import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
 class BorderActivePointsIndex {

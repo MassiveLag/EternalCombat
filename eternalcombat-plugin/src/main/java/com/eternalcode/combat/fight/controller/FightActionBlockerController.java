@@ -1,8 +1,8 @@
 package com.eternalcode.combat.fight.controller;
 
-import com.eternalcode.combat.config.implementation.PluginConfig;
 import com.eternalcode.combat.WhitelistBlacklistMode;
 import com.eternalcode.combat.config.implementation.BlockPlacementSettings;
+import com.eternalcode.combat.config.implementation.PluginConfig;
 import com.eternalcode.combat.fight.FightManager;
 import com.eternalcode.combat.fight.event.FightUntagEvent;
 import com.eternalcode.combat.notification.NoticeService;

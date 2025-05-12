@@ -7,6 +7,7 @@ import com.eternalcode.combat.fight.knockback.KnockbackSettings;
 import com.eternalcode.combat.fight.pearl.FightPearlSettings;
 import eu.okaeri.configs.OkaeriConfig;
 import eu.okaeri.configs.annotation.Comment;
+
 import java.time.Duration;
 import java.util.List;
 

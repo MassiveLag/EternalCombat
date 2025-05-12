@@ -4,13 +4,14 @@ import com.eternalcode.combat.fight.FightManager;
 import com.eternalcode.combat.fight.FightTag;
 import com.eternalcode.combat.util.DurationUtil;
 import com.eternalcode.commons.time.DurationParser;
-import java.util.Optional;
 import me.clip.placeholderapi.expansion.PlaceholderExpansion;
 import org.bukkit.OfflinePlayer;
 import org.bukkit.Server;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.Plugin;
 import org.jetbrains.annotations.NotNull;
+
+import java.util.Optional;
 
 public class FightTagPlaceholder extends PlaceholderExpansion {
 

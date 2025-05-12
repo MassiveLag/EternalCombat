@@ -1,13 +1,12 @@
 package com.eternalcode.combat.border.animation.block;
 
 import com.eternalcode.combat.border.BorderPoint;
-import static com.eternalcode.combat.border.animation.block.BorderBlockRainbowUtil.xyzToConcrete;
-import static com.eternalcode.combat.border.animation.block.BorderBlockRainbowUtil.xyzToGlass;
-import static com.eternalcode.combat.border.animation.block.BorderBlockRainbowUtil.xyzToTerracotta;
-import static com.eternalcode.combat.border.animation.block.BorderBlockRainbowUtil.xyzToWool;
 import com.github.retrooper.packetevents.protocol.world.states.type.StateType;
 import com.github.retrooper.packetevents.protocol.world.states.type.StateTypes;
+
 import java.util.Locale;
+
+import static com.eternalcode.combat.border.animation.block.BorderBlockRainbowUtil.*;
 
 public class BlockType {
 

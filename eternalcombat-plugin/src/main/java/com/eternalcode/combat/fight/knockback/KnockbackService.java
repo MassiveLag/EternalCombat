@@ -3,14 +3,15 @@ package com.eternalcode.combat.fight.knockback;
 import com.eternalcode.combat.config.implementation.PluginConfig;
 import com.eternalcode.combat.region.Region;
 import com.eternalcode.commons.scheduler.Scheduler;
-import java.time.Duration;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.UUID;
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
 import org.bukkit.event.player.PlayerTeleportEvent;
 import org.bukkit.util.Vector;
+
+import java.time.Duration;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.UUID;
 
 public final class KnockbackService {
 

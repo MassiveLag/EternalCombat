@@ -11,14 +11,10 @@ import com.sk89q.worldguard.protection.managers.RegionManager;
 import com.sk89q.worldguard.protection.regions.ProtectedRegion;
 import com.sk89q.worldguard.protection.regions.RegionContainer;
 import com.sk89q.worldguard.protection.regions.RegionQuery;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Optional;
-import java.util.TreeSet;
 import org.bukkit.Location;
-
-import java.util.List;
 import org.bukkit.World;
+
+import java.util.*;
 
 public class WorldGuardRegionProvider implements RegionProvider {
 
