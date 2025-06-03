@@ -19,8 +19,11 @@ import org.bukkit.event.entity.EntityToggleGlideEvent;
 import org.bukkit.event.inventory.InventoryOpenEvent;
 import org.bukkit.event.player.PlayerCommandPreprocessEvent;
 import org.bukkit.event.player.PlayerMoveEvent;
+import org.bukkit.event.player.PlayerRiptideEvent;
 import org.bukkit.event.player.PlayerToggleFlightEvent;
+import org.bukkit.inventory.ItemStack;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.UUID;
 
@@ -125,9 +128,18 @@ public class FightActionBlockerController implements Listener {
 
         if (player.isGliding()) {
             player.setGliding(false);
+            player.setAllowFlight(false);
+            player.setFlying(false);
+
+            ItemStack chestplate = player.getInventory().getChestplate();
+            if (chestplate != null && chestplate.getType() == Material.ELYTRA) {
+                HashMap<Integer, ItemStack> leftover = player.getInventory().addItem(chestplate);
+                if (leftover.isEmpty()) {
+                    player.getInventory().setChestplate(null);
+                }
+            }
         }
     }
-
 
 
     @EventHandler
@@ -145,8 +157,6 @@ public class FightActionBlockerController implements Listener {
 
         if (event.isFlying()) {
             player.setAllowFlight(false);
-
-            event.setCancelled(true);
         }
     }
 
